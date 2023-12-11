@@ -1,0 +1,283 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /* background: rgb(108, 118, 120);
+    background: radial-gradient(circle, rgba(119,178,190,1) 0%, rgba(111,174,184,1) 0%, rgba(142,198,207,1) 18%, rgba(111,205,215,1) 47%, rgba(137,224,230,1) 76%, rgba(104,173,173,1) 100%); */
+    background-image: url(https://cdn.pixabay.com/photo/2016/10/11/21/43/geometric-1732847_1280.jpg);
+    background-size: cover;
+background-size: 100%;
+}
+
+header{
+    font-family: 'Rubik Mono One', monospace;
+}
+
+.main-header {
+    padding: -1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background:  #156974;
+}
+
+
+nav {
+    padding: 5%;
+    padding-left: -20%;
+    margin-bottom: -15%;
+    bottom: 0;
+    padding-right: -20%;
+    background-size: cover;
+    height: 40vh;
+    margin-left: 20%;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 20px;
+     text-shadow: 2px 0px 2px #000;
+}
+
+li {
+    float: left;
+    border: solid 2px #ffffff;
+    border-radius: 300px;
+    margin: 5px;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    padding: 20px 30px 0 30px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li a:hover {
+    border-radius: 300px;
+}
+
+.logo img {
+    position: absolute;
+    top: -2%;
+    width: 300px;
+    height: 300px;
+    margin-top: -2%;
+    left: -1%;
+}
+
+
+h1 {
+    margin: 5%;
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    /* font-family: 'Playfair Display', serif; */
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section {
+    padding: 54px 0;
+}
+
+h3 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+    margin-top: -30px;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.containervk {
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    margin-top: 10px;
+    font-size: 10px;
+    background-color: #156974;
+    border-radius: 30px;
+}
+
+.containervk img {
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    animation: animate 4s linear infinite;
+}
+
+@keyframes animate {
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+}
+
+.containervk p {
+    font-size: 20px;
+    margin: 10px;
+    gap: 5px;
+    font-weight: 500;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.containervk h2 {
+    font-weight: 800;
+    font-size: 30px;
+    /* font-family: sans-serif; */
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pilar {
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 1px 1px 1px black;
+}
+
+.integri {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+.confide {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.disponibilidade {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+/* .engrenagem{
+    width: 30px;
+} */
+
+.banner{
+    margin: 3%;
+}
+
+
+.banner p {
+    margin: 30px;
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: left;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin: 30px;
+    width: 260px;
+    height: 400px;
+    border-radius: 30px;
+    margin-top: 5px;
+    background-color: #247383;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+}
+
+.mar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.texto-main {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.desk {
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+footer {
+    text-shadow: 1px 0px 1px #000;
+    font-size: 20px;
+    text-align: center;
+    bottom: 0;
+    background: #156974;
+    padding-right: 5%;
+    background-size: cover;
+    height: 70vh;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.joao{
+    margin-right: 60%;
+    margin-top: 3%;
+    color: #fff;
+}
+
+footer h2{
+    font-size: 20px;
+    color: #fff;
+}
+
+.maps {
+    display: flex;
+    margin-left: 5%;
+}
+
+.link img{
+    height: 300px;
+    width: 350px;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+footer .link{
+    bottom: 0;
+    margin-top: -5%;
+
+}
+
+.maps p{
+    margin-left: 5%;
+    text-align: left;
+    color: #fff;
+}
+
+a{
+    color: rgba(0, 0, 255, 0.589);
+    font-size: 15px;
+}

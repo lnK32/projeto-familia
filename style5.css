@@ -1,0 +1,317 @@
+@charset "utf-8";
+
+
+body {
+    background: linear-gradient( to right,  #fff, #bbecef);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://cdn.pixabay.com/photo/2016/10/11/21/43/geometric-1732847_1280.jpg);
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 20px;
+     text-shadow: 2px 0px 2px #000;
+}
+
+li {
+    float: left;
+    border: solid 2px #ffffff;
+    border-radius: 50px;
+    margin: 12px;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li a:hover {
+    border-radius: 50px;
+}
+
+.logo img {
+    position: absolute;
+    top: -2%;
+    width: 300px;
+    height: 300px;
+    margin-top: -2%;
+    left: -1%;
+}
+
+nav {
+    padding: 5%;
+    padding-left: 20%;
+    margin-bottom: -10%;
+    bottom: 0;
+    padding-right: -20%;
+    background-size: cover;
+    height: 30vh;
+}
+
+
+.main-header {
+    padding: -2%;
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* text-align: center; */
+    background:  #1e97b0;
+}
+
+section {
+    padding: 54px 0;
+}
+
+h1{
+    margin: 10px;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: sans-serif;
+    color:black;
+    margin-top: 30px;
+    text-align: left;
+}
+.lk{
+
+    margin: 5px;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+p vk{
+    margin: 10px;
+    padding:10px;
+    font-weight: 500;
+    font-size: 10px;
+}
+
+.banner p {
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: left;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.containervk {
+    margin: auto;
+    text-align: center;
+    max-width: 1400px;
+    margin: auto;
+    padding: 0 5px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    flex: auto;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 1.2em;
+    animation: minhaanimaçao 3s ease-in-out infinite;}
+
+.cardf {
+    border-radius: 50px;
+  background: linear-gradient(to right,#fff,rgb(84, 177, 244)); 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+    margin-bottom: 2em;
+}
+
+.cardf img {
+
+    text-align: center;
+    border-radius: 100px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+p{
+    font-size: 19px;
+    padding: 10px 10px 10px;
+    margin: 20px 20px 20px;
+    font-weight: 600;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.cardf {
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.cardf div {
+    padding: 2em;
+}
+
+
+.cardf:nth-child(even) img {
+    order: 2;
+}
+
+
+.btng {
+     border: none; 
+    font-size: 29px;
+    border-radius: 30px;
+    border: 20px solid rgb(126, 197, 247);
+     background: black; 
+     color:white ; 
+    font-weight: 600;
+}
+
+.btng:hover{
+    transition: 0.6s;
+    background-color: rgb(47, 233, 96);
+
+}
+
+/* card inico */
+.containervr{
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin: 30px;
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    margin-top: 5px;
+    background-color: rgb(59, 127, 230);
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+}
+
+.mar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.texto-main {
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.desk {
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    font-size: 25px;
+}
+
+body{
+    animation: surgir 5s ease-in-out;    
+}
+
+@keyframes surgir {
+    from{
+         opacity: 0;
+         translate:-100vw 0;
+        
+    }
+
+    to{
+        opacity: 1;
+        translate: 0 0; 
+    }
+    
+}
+/* Fim card */
+
+/* inico futer */
+
+.redes sociais {
+    color: #2ecc71;
+    padding: 10px;
+    margin-top: 5px
+}
+
+footer {
+    text-shadow: 1px 0px 1px #000;
+    font-size: 20px;
+    text-align: center;
+    bottom: 0;
+    background: #1e97b0;
+    padding-right: 5%;
+    background-size: cover;
+    height: 70vh;
+    font-family: 'Quicksand', sans-serif;
+    border: solid 5px #fff;
+}
+
+.joao{
+    margin-right: 60%;
+    margin-top: 3%;
+}
+
+.color{
+    font-size: 20px;
+    color: white;
+}
+
+.maps {
+    display: flex;
+    margin-left: 5%;
+}
+
+.link img{
+    height: 200px;
+    width: 250px;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+.joao{
+    color: white;
+}
+
+.cla{
+    color: white;
+}
+
+footer .link{
+    bottom: 0;
+    margin-top: -5%;
+
+}
+
+.maps p{
+    margin-left: 5%;
+    text-align: left;
+}
+
+
+
+
+

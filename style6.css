@@ -1,0 +1,202 @@
+@charset "utf-8";
+
+
+h1{
+    text-align: center;
+    padding: 5px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-size: 50px;
+    background-color: rgb(57, 125, 148);
+            text-shadow: 0 0 10px #fff, 0 0 25px rgba(219, 219, 219, 0.349), 0 0 30px #7bfafa, 0 0 35px #69bdc2, 0 0 40px #65b9c2, 0 0 45px #56bbca, 0 0 50px #06d3fc;
+            animation: neon-glow 1.5s ease-in-out infinite alternate;
+}
+
+/* @keyframes neon-glow 
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #0f0, 0 0 70px #0f0, 0 0 80px #0f0, 0 0 100px #0f0;
+    }
+    to {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #0f0, 0 0 35px #0f0, 0 0 40px #0f0, 0 0 50px #0f0;
+    } */
+
+.logo img {
+    position: absolute;
+    max-width: 315px;
+    top: 0px;
+    background-color: rgb(57, 125, 148) ;
+}
+
+
+body{
+    background-color: rgb(57, 125, 148);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 0%;
+    
+
+}
+.containervr{
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    padding: 50px;
+    margin: 15px;
+    width: 350px;
+    height: 550px;
+    border-radius: 15px;
+    margin-top: 5px;
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+    background-color: #77b2be;
+}
+
+.card:hover,
+.card:not(:hover) {
+    filter: blur(5px) grayscale(50%) opacity(50%); /* Aplica o efeito de desfoque nos cards que não estão sendo hoverizados */
+}
+
+.card:hover {
+    filter: none;
+    transform: scale(1.1);
+
+    }
+
+.card img {
+    width:75%;
+    height: 95%;
+    object-fit: cover;
+    border-radius: 9px;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+}
+
+.mar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.texto-main {
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.desk {
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    font-size: 15px;
+}
+
+.card h2{
+    padding: -100px;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .containervk {
+        margin: auto;
+        text-align: center;
+        max-width: 1400px;
+        margin: auto;
+        padding: 0 5px;
+    }
+    
+    .header {
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    
+    }
+    
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 30px;
+    }
+    
+    nav ul {
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    nav ul a {
+        text-decoration: none;
+        margin: 0 15px;
+        text-transform: uppercase;
+        font-size: 22px;
+        color: #06d3fc;
+    }
+    
+    nav a:hover{
+        font-weight: 900;
+        color: rgb(0, 119, 255);
+        transition: 0.3s all;
+    }
+
+
+
+
+
+    h1{
+        margin: 10px;
+        font-size: 50px;
+        font-weight: 800;
+        font-family: sans-serif;
+        color:black;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+
+
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+    overflow:hidden;
+    padding: 0 2em;
+
+  }
+
+  .card-6 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    gap: 1em;
+    background-color: rgba(0, 0, 0, 0.493);
+   text-align: justify;
+   
+   
+  }
+  img{
+    width: 100%;
+  }
+  .card-6 h3{
+    margin-bottom: 2em;
+  }
+  .card-6 div{
+    padding: 2em;
+  }
+
+  .card-6:nth-child(even) img{
+    order: 2
+  }
+
+  
